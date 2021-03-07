@@ -3,16 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A21F3BE25F44DFF00841B34 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A21F3BD25F44DFF00841B34 /* Player.swift */; };
 		3A2565A925E770EA00C173AA /* Music_PlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2565A825E770EA00C173AA /* Music_PlayerApp.swift */; };
-		3A2565AB25E770EA00C173AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2565AA25E770EA00C173AA /* ContentView.swift */; };
+		3A2565AB25E770EA00C173AA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2565AA25E770EA00C173AA /* HomeView.swift */; };
 		3A2565AD25E770ED00C173AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2565AC25E770ED00C173AA /* Assets.xcassets */; };
 		3A2565B025E770ED00C173AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2565AF25E770ED00C173AA /* Preview Assets.xcassets */; };
 		3A2565BB25E770ED00C173AA /* Music_PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2565BA25E770ED00C173AA /* Music_PlayerTests.swift */; };
 		3A2565C625E770ED00C173AA /* Music_PlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2565C525E770ED00C173AA /* Music_PlayerUITests.swift */; };
+		3A2565D725E7819F00C173AA /* FileManager+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2565D625E7819F00C173AA /* FileManager+.swift */; };
+		3A2565E925E784A700C173AA /* Nihilore - Fragile - 09 Katabasis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A2565DC25E784A700C173AA /* Nihilore - Fragile - 09 Katabasis.mp3 */; };
+		3A2565EA25E784A700C173AA /* Nihilore - Fragile - 05 Parade.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A2565DD25E784A700C173AA /* Nihilore - Fragile - 05 Parade.mp3 */; };
+		3A2565EB25E784A700C173AA /* Nihilore - Fragile - 03 Solitaire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A2565DE25E784A700C173AA /* Nihilore - Fragile - 03 Solitaire.mp3 */; };
+		3A2565EC25E784A700C173AA /* Nihilore - Fragile - 06 Drifting.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A2565DF25E784A700C173AA /* Nihilore - Fragile - 06 Drifting.mp3 */; };
+		3A2565ED25E784A700C173AA /* Nihilore - Fragile - 11 Broken in Two.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A2565E025E784A700C173AA /* Nihilore - Fragile - 11 Broken in Two.mp3 */; };
+		3A2565EE25E784A700C173AA /* Nihilore - Fragile - Fragile-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A2565E125E784A700C173AA /* Nihilore - Fragile - Fragile-logo.jpg */; };
+		3A2565EF25E784A700C173AA /* Nihilore - Fragile - 10 Same as Sharks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A2565E225E784A700C173AA /* Nihilore - Fragile - 10 Same as Sharks.mp3 */; };
+		3A2565F025E784A700C173AA /* Nihilore - Fragile - 04 Healing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A2565E325E784A700C173AA /* Nihilore - Fragile - 04 Healing.mp3 */; };
+		3A2565F125E784A700C173AA /* Nihilore - Fragile - 02 Fictofaction.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A2565E425E784A700C173AA /* Nihilore - Fragile - 02 Fictofaction.mp3 */; };
+		3A2565F225E784A700C173AA /* Nihilore - Fragile - 08 Past Times.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A2565E525E784A700C173AA /* Nihilore - Fragile - 08 Past Times.mp3 */; };
+		3A2565F325E784A700C173AA /* Nihilore - Fragile - 01 Oceans Apart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A2565E625E784A700C173AA /* Nihilore - Fragile - 01 Oceans Apart.mp3 */; };
+		3A2565F425E784A700C173AA /* cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A2565E725E784A700C173AA /* cover.jpg */; };
+		3A2565F525E784A700C173AA /* Nihilore - Fragile - 07 Hailstorm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A2565E825E784A700C173AA /* Nihilore - Fragile - 07 Hailstorm.mp3 */; };
+		3A2565FD25E7876200C173AA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2565FC25E7876200C173AA /* HomeViewModel.swift */; };
+		3A25660525E78D0800C173AA /* songs.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A25660425E78D0800C173AA /* songs.json */; };
+		3A8E439C25F146B300D075A0 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E439B25F146B300D075A0 /* ProgressBarView.swift */; };
+		3ABDC71425EBEF58008EEF17 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABDC71325EBEF58008EEF17 /* Song.swift */; };
+		3ABDC71925EBF0F8008EEF17 /* Songs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABDC71825EBF0F8008EEF17 /* Songs.swift */; };
+		3ABDC72125EC5900008EEF17 /* Bundle+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABDC72025EC5900008EEF17 /* Bundle+.swift */; };
+		3ABDC72625EEEBE2008EEF17 /* SongListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABDC72525EEEBE2008EEF17 /* SongListItemView.swift */; };
+		3ABDC73225EF00BB008EEF17 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 3ABDC73125EF00BB008EEF17 /* Nuke */; };
+		3ABDC73725EF3960008EEF17 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABDC73625EF3960008EEF17 /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +57,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A21F3BD25F44DFF00841B34 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		3A2565A525E770EA00C173AA /* Music Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2565A825E770EA00C173AA /* Music_PlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_PlayerApp.swift; sourceTree = "<group>"; };
-		3A2565AA25E770EA00C173AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3A2565AA25E770EA00C173AA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3A2565AC25E770ED00C173AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A2565AF25E770ED00C173AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A2565B125E770ED00C173AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +70,28 @@
 		3A2565C125E770ED00C173AA /* Music PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Music PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2565C525E770ED00C173AA /* Music_PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_PlayerUITests.swift; sourceTree = "<group>"; };
 		3A2565C725E770ED00C173AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A2565D625E7819F00C173AA /* FileManager+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+.swift"; sourceTree = "<group>"; };
+		3A2565DC25E784A700C173AA /* Nihilore - Fragile - 09 Katabasis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Nihilore - Fragile - 09 Katabasis.mp3"; sourceTree = "<group>"; };
+		3A2565DD25E784A700C173AA /* Nihilore - Fragile - 05 Parade.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Nihilore - Fragile - 05 Parade.mp3"; sourceTree = "<group>"; };
+		3A2565DE25E784A700C173AA /* Nihilore - Fragile - 03 Solitaire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Nihilore - Fragile - 03 Solitaire.mp3"; sourceTree = "<group>"; };
+		3A2565DF25E784A700C173AA /* Nihilore - Fragile - 06 Drifting.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Nihilore - Fragile - 06 Drifting.mp3"; sourceTree = "<group>"; };
+		3A2565E025E784A700C173AA /* Nihilore - Fragile - 11 Broken in Two.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Nihilore - Fragile - 11 Broken in Two.mp3"; sourceTree = "<group>"; };
+		3A2565E125E784A700C173AA /* Nihilore - Fragile - Fragile-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nihilore - Fragile - Fragile-logo.jpg"; sourceTree = "<group>"; };
+		3A2565E225E784A700C173AA /* Nihilore - Fragile - 10 Same as Sharks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Nihilore - Fragile - 10 Same as Sharks.mp3"; sourceTree = "<group>"; };
+		3A2565E325E784A700C173AA /* Nihilore - Fragile - 04 Healing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Nihilore - Fragile - 04 Healing.mp3"; sourceTree = "<group>"; };
+		3A2565E425E784A700C173AA /* Nihilore - Fragile - 02 Fictofaction.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Nihilore - Fragile - 02 Fictofaction.mp3"; sourceTree = "<group>"; };
+		3A2565E525E784A700C173AA /* Nihilore - Fragile - 08 Past Times.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Nihilore - Fragile - 08 Past Times.mp3"; sourceTree = "<group>"; };
+		3A2565E625E784A700C173AA /* Nihilore - Fragile - 01 Oceans Apart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Nihilore - Fragile - 01 Oceans Apart.mp3"; sourceTree = "<group>"; };
+		3A2565E725E784A700C173AA /* cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover.jpg; sourceTree = "<group>"; };
+		3A2565E825E784A700C173AA /* Nihilore - Fragile - 07 Hailstorm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Nihilore - Fragile - 07 Hailstorm.mp3"; sourceTree = "<group>"; };
+		3A2565FC25E7876200C173AA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		3A25660425E78D0800C173AA /* songs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = songs.json; sourceTree = "<group>"; };
+		3A8E439B25F146B300D075A0 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		3ABDC71325EBEF58008EEF17 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		3ABDC71825EBF0F8008EEF17 /* Songs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Songs.swift; sourceTree = "<group>"; };
+		3ABDC72025EC5900008EEF17 /* Bundle+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+.swift"; sourceTree = "<group>"; };
+		3ABDC72525EEEBE2008EEF17 /* SongListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListItemView.swift; sourceTree = "<group>"; };
+		3ABDC73625EF3960008EEF17 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ABDC73225EF00BB008EEF17 /* Nuke in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +120,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A21F3CF25F595AC00841B34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3ABDC71825EBF0F8008EEF17 /* Songs.swift */,
+				3ABDC71325EBEF58008EEF17 /* Song.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3A21F3D325F595F600841B34 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A2565AA25E770EA00C173AA /* HomeView.swift */,
+				3ABDC73625EF3960008EEF17 /* PlayerView.swift */,
+				3A8E439B25F146B300D075A0 /* ProgressBarView.swift */,
+				3ABDC72525EEEBE2008EEF17 /* SongListItemView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3A21F3D425F5960400841B34 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3A2565FC25E7876200C173AA /* HomeViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		3A21F3D825F5961900841B34 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3ABDC72025EC5900008EEF17 /* Bundle+.swift */,
+				3A2565D625E7819F00C173AA /* FileManager+.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		3A21F3D925F5963500841B34 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3A21F3BD25F44DFF00841B34 /* Player.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		3A25659C25E770EA00C173AA = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +188,17 @@
 		3A2565A725E770EA00C173AA /* Music Player */ = {
 			isa = PBXGroup;
 			children = (
+				3A21F3D925F5963500841B34 /* Shared */,
+				3A21F3D825F5961900841B34 /* Extensions */,
+				3A21F3D425F5960400841B34 /* ViewModels */,
+				3A21F3D325F595F600841B34 /* Views */,
+				3A21F3CF25F595AC00841B34 /* Models */,
 				3A2565A825E770EA00C173AA /* Music_PlayerApp.swift */,
-				3A2565AA25E770EA00C173AA /* ContentView.swift */,
+				3A2565DB25E784A700C173AA /* nihilore_fragile */,
 				3A2565AC25E770ED00C173AA /* Assets.xcassets */,
 				3A2565B125E770ED00C173AA /* Info.plist */,
 				3A2565AE25E770ED00C173AA /* Preview Content */,
+				3A25660425E78D0800C173AA /* songs.json */,
 			);
 			path = "Music Player";
 			sourceTree = "<group>";
@@ -130,6 +229,26 @@
 			path = "Music PlayerUITests";
 			sourceTree = "<group>";
 		};
+		3A2565DB25E784A700C173AA /* nihilore_fragile */ = {
+			isa = PBXGroup;
+			children = (
+				3A2565DC25E784A700C173AA /* Nihilore - Fragile - 09 Katabasis.mp3 */,
+				3A2565DD25E784A700C173AA /* Nihilore - Fragile - 05 Parade.mp3 */,
+				3A2565DE25E784A700C173AA /* Nihilore - Fragile - 03 Solitaire.mp3 */,
+				3A2565DF25E784A700C173AA /* Nihilore - Fragile - 06 Drifting.mp3 */,
+				3A2565E025E784A700C173AA /* Nihilore - Fragile - 11 Broken in Two.mp3 */,
+				3A2565E125E784A700C173AA /* Nihilore - Fragile - Fragile-logo.jpg */,
+				3A2565E225E784A700C173AA /* Nihilore - Fragile - 10 Same as Sharks.mp3 */,
+				3A2565E325E784A700C173AA /* Nihilore - Fragile - 04 Healing.mp3 */,
+				3A2565E425E784A700C173AA /* Nihilore - Fragile - 02 Fictofaction.mp3 */,
+				3A2565E525E784A700C173AA /* Nihilore - Fragile - 08 Past Times.mp3 */,
+				3A2565E625E784A700C173AA /* Nihilore - Fragile - 01 Oceans Apart.mp3 */,
+				3A2565E725E784A700C173AA /* cover.jpg */,
+				3A2565E825E784A700C173AA /* Nihilore - Fragile - 07 Hailstorm.mp3 */,
+			);
+			path = nihilore_fragile;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +265,9 @@
 			dependencies = (
 			);
 			name = "Music Player";
+			packageProductDependencies = (
+				3ABDC73125EF00BB008EEF17 /* Nuke */,
+			);
 			productName = "Music Player";
 			productReference = 3A2565A525E770EA00C173AA /* Music Player.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +339,9 @@
 				Base,
 			);
 			mainGroup = 3A25659C25E770EA00C173AA;
+			packageReferences = (
+				3ABDC73025EF00BB008EEF17 /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
 			productRefGroup = 3A2565A625E770EA00C173AA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,8 +358,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A2565F225E784A700C173AA /* Nihilore - Fragile - 08 Past Times.mp3 in Resources */,
+				3A2565F125E784A700C173AA /* Nihilore - Fragile - 02 Fictofaction.mp3 in Resources */,
+				3A2565EA25E784A700C173AA /* Nihilore - Fragile - 05 Parade.mp3 in Resources */,
+				3A2565F025E784A700C173AA /* Nihilore - Fragile - 04 Healing.mp3 in Resources */,
+				3A2565E925E784A700C173AA /* Nihilore - Fragile - 09 Katabasis.mp3 in Resources */,
+				3A2565F425E784A700C173AA /* cover.jpg in Resources */,
+				3A2565EE25E784A700C173AA /* Nihilore - Fragile - Fragile-logo.jpg in Resources */,
+				3A2565EB25E784A700C173AA /* Nihilore - Fragile - 03 Solitaire.mp3 in Resources */,
+				3A2565F525E784A700C173AA /* Nihilore - Fragile - 07 Hailstorm.mp3 in Resources */,
+				3A2565ED25E784A700C173AA /* Nihilore - Fragile - 11 Broken in Two.mp3 in Resources */,
+				3A2565EF25E784A700C173AA /* Nihilore - Fragile - 10 Same as Sharks.mp3 in Resources */,
 				3A2565B025E770ED00C173AA /* Preview Assets.xcassets in Resources */,
+				3A25660525E78D0800C173AA /* songs.json in Resources */,
+				3A2565F325E784A700C173AA /* Nihilore - Fragile - 01 Oceans Apart.mp3 in Resources */,
 				3A2565AD25E770ED00C173AA /* Assets.xcassets in Resources */,
+				3A2565EC25E784A700C173AA /* Nihilore - Fragile - 06 Drifting.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +398,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A2565AB25E770EA00C173AA /* ContentView.swift in Sources */,
+				3A21F3BE25F44DFF00841B34 /* Player.swift in Sources */,
+				3ABDC73725EF3960008EEF17 /* PlayerView.swift in Sources */,
+				3ABDC71925EBF0F8008EEF17 /* Songs.swift in Sources */,
+				3ABDC72125EC5900008EEF17 /* Bundle+.swift in Sources */,
+				3A2565AB25E770EA00C173AA /* HomeView.swift in Sources */,
+				3A2565D725E7819F00C173AA /* FileManager+.swift in Sources */,
 				3A2565A925E770EA00C173AA /* Music_PlayerApp.swift in Sources */,
+				3A2565FD25E7876200C173AA /* HomeViewModel.swift in Sources */,
+				3ABDC72625EEEBE2008EEF17 /* SongListItemView.swift in Sources */,
+				3ABDC71425EBEF58008EEF17 /* Song.swift in Sources */,
+				3A8E439C25F146B300D075A0 /* ProgressBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +728,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3ABDC73025EF00BB008EEF17 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3ABDC73125EF00BB008EEF17 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3ABDC73025EF00BB008EEF17 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3A25659D25E770EA00C173AA /* Project object */;
 }
