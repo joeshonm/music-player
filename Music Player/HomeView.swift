@@ -138,6 +138,7 @@ struct ContentView: View {
             }
             
             .navigationBarHidden(true)
+            .colorScheme(.light)
             
         }
         
@@ -159,34 +160,29 @@ struct ContentView: View {
     
     func previousSong() {
         currentSongIndex -= 1
-        
-        let song:Song
-        
+                
         if currentSongIndex < 0 {
-            song = viewModel.songs[viewModel.songs.count-1]
+            currentSong = viewModel.songs[viewModel.songs.count-1]
+            
+            currentSongIndex = viewModel.songs.count-1
         } else {
-            song = viewModel.songs[currentSongIndex]
+            currentSong = viewModel.songs[currentSongIndex]
         }
-        
-        currentSong = song
-        
-        player.loadSong(play: song)
+                
+        player.loadSong(play: currentSong!)
     }
     
     func nextSong() {
         currentSongIndex += 1
         
-        let song:Song
-        
         if currentSongIndex > viewModel.songs.count-1 {
-            song = viewModel.songs[0]
+            currentSong = viewModel.songs[0]
+            currentSongIndex = 0
         } else {
-            song = viewModel.songs[currentSongIndex]
+            currentSong = viewModel.songs[currentSongIndex]
         }
-        
-        currentSong = song
-        
-        player.loadSong(play: song)
+                
+        player.loadSong(play: currentSong!)
     }
     
     

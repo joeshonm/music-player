@@ -12,9 +12,6 @@ class HomeViewModel: ObservableObject {
     
     @Published var songs:[Song] = []
     
-    var imageCache = NSCache<NSString, UIImage>()
-    
-    
     func loadSongs() {
         songs = Bundle.main.decodeJSON(file: "songs.json")
     }
