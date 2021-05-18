@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+/**
+ The song list item showing the songs cover image, title, and artist name.
+ */
 struct SongListItemView: View {
     
     @State var song:Song

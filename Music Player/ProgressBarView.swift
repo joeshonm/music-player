@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+/**
+ The progress bar of the player view.
+ */
 struct ProgressBarView: View {
     
     @Binding var percentage:Double

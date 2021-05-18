@@ -9,12 +9,18 @@ import Foundation
 import AVKit
 import SwiftUI
 
+/**
+ The player class that handles the playing functionality of the songs.
+ */
 class Player: NSObject, ObservableObject, AVAudioPlayerDelegate {
     
+    /// An instance of the audio player
     private var audioPlayer:AVAudioPlayer = AVAudioPlayer()
     
+    /// The timer used to get the updated song play time
     private var timer:Timer?
     
+    /// The function used when the song play time has completed
     var finishedPlaying:() -> () = {}
     
     @Published var isPlaying:Bool = false
@@ -71,7 +77,7 @@ class Player: NSObject, ObservableObject, AVAudioPlayerDelegate {
         }
     }
     
-    func getTime (seconds : TimeInterval) -> (String, String) {
+    func getTime(seconds : TimeInterval) -> (String, String) {
         let formatter = DateComponentsFormatter()
         formatter.allowedUnits = [.minute, .second]
         formatter.unitsStyle = .positional

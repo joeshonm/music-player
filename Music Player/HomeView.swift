@@ -8,17 +8,33 @@
 import SwiftUI
 import AVKit
 
+/**
+    The home view of the application.
+ */
 struct ContentView: View {
     
+    /// The view model that supplies the view data.
     @ObservedObject private var viewModel = HomeViewModel()
     
+    /// Boolean to toggle the showing of the music player
     @State private var showPlayer = false
+    
+    /// Boolean to toggle minimizing the music player
     @State private var minimized = false
+    
+    /// The player position inside the view as CGSize
     @State private var playerPosition = CGSize.zero
+    
+    /// The opacity of the minimized player as a Double
     @State private var miniPlayerOpacity = 0.0
+    
+    /// The current song playing
     @State private var currentSong:Song?
+    
+    /// The current song index in the view model array of songs
     @State private var currentSongIndex:Int = 0
     
+    /// The class that handles the player functionality
     @ObservedObject private var player = Player()
     
     
@@ -154,10 +170,14 @@ struct ContentView: View {
         }
     }
     
+    /// The rounded opacity of the player as the user drags the view
+    /// - Parameter number: The raw opacity as a Double
+    /// - Returns: The opacity as a double
     func roundOpacity(number:Double) -> Double {
         return Double(round(1000*number)/1000)
     }
     
+    /// Advance to the previous song
     func previousSong() {
         currentSongIndex -= 1
                 
@@ -172,6 +192,7 @@ struct ContentView: View {
         player.loadSong(play: currentSong!)
     }
     
+    /// Advance to the next song
     func nextSong() {
         currentSongIndex += 1
         

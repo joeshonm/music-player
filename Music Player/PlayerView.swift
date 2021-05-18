@@ -9,6 +9,9 @@ import SwiftUI
 import UIKit
 import AVKit
 
+/**
+ Shows the current song playing, current time, and player controls.
+ */
 struct PlayerView: View {
     
     @Binding var miniPlayerOpacity:Double
